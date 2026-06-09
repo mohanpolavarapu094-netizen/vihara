@@ -8,6 +8,7 @@ pydantic-settings==2.5.2
 
 # ── DATABASE ──────────────────────────────────────────────────────
 sqlalchemy==2.0.35
+greenlet==3.0.3            # Required for SQLAlchemy async support
 aiosqlite==0.20.0          # SQLite async driver (local dev, zero setup)
 asyncpg==0.30.0            # PostgreSQL async driver (production/Docker)
 alembic==1.13.3
